@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hml xmlns="http://heuristnetwork.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://heuristnetwork.org/reference/scheme_hml.xsd">
+    <database id="0">stutzmann_horae</database>
+    
+    <!-- Problème sur les RECORDS-IDENTIFIERS qui n'avaient pas été générés préalablement dans la base de données. -->
+    
+    <records>
+
+        <!--
+        Template pour Use :
+        <record>
+            <!-\- Specify the entity identifier in the source database (numeric or alphanumeric) if entity may be the target of a record pointer field, including the target record pointer of a  relationship record.-\->
+            <id>RECORD-IDENTIFIER</id>
+            <!-\- type specifies the record (entity) type of the record -\->
+            <type conceptID="0000-92">Use</type>
+            <url>URL</url>
+            <notes/>
+            <detail conceptID="2-9" name="Date">DATE</detail>
+            <detail conceptID="2-21" name="Organisation" isRecordPointer="true">RECORD_REFERENCE</detail>
+            <detail conceptID="0000-1011" name="bibl" isRecordPointer="true">RECORD_REFERENCE</detail>
+            <detail conceptID="0000-1012" name="Note">MEMO_TEXT</detail>
+            <detail conceptID="0000-1187" name="Office">TEXT</detail>
+            <detail conceptID="0000-1191" name="Cursus" isRecordPointer="true">RECORD_REFERENCE</detail>
+            <detail conceptID="0000-1194" name="Source" isRecordPointer="true">RECORD_REFERENCE</detail>
+        </record>
+        -->
+
+        <!-- 3 essais de type "Use" : Agen, Aix, Amiens-->
+        
+        <record>
+            <id>H-ID-600000</id>
+            <type conceptId="0000-92">Use</type>
+            <detail conceptID="2-1" name="Title">Agen (Use) [2]</detail>
+            <detail conceptID="2-21" name="Organisation" isRecordPointer="true">402892</detail>
+        </record>
+        <record>
+            <id>H-ID-600001</id>
+            <type conceptId="0000-92">Use</type>
+            <detail conceptID="2-1" name="Title">Aix-en-Provence (Use) [2]</detail>
+            <detail conceptID="2-21" name="Organisation" isRecordPointer="true">402960</detail>
+        </record>
+        <record>
+            <id>H-ID-600002</id>
+            <type conceptId="0000-92">Use</type>
+            <detail conceptID="2-1" name="Title">Amiens (Use) [2]</detail>
+            <detail conceptID="2-21" name="Organisation" isRecordPointer="true">H-ID-10004</detail>
+        </record>
+
+        <!-- Template pour UseItem :
+            <record>
+            <!-\- Specify the entity identifier in the source database (numeric or alphanumeric) if entity may be the target of a record pointer field, including the target record pointer of a  relationship record.-\->
+            <id>RECORD-IDENTIFIER</id>
+            <!-\- type specifies the record (entity) type of the record -\->
+            <type conceptID="0000-93">useItem</type>
+            <url>URL</url>
+            <notes/>
+            <detail conceptID="0000-1012" name="Note">MEMO_TEXT</detail>
+            <detail conceptID="0000-1134" name="Work" isRecordPointer="true">RECORD_REFERENCE</detail>
+            <detail conceptID="0000-1188" name="Work (Cursus)">TEXT</detail>
+            <detail conceptID="0000-1192" name="Sequence">TEXT</detail>
+        </record>-->
+
+        <!--Quel texte mettre dans "Sequence" ? -->
+
+        <!-- 6 essais de type useItem pour pouvoir faire des relations de succession et de hiérarchie -->
+        
+        <record>
+            <id>H-ID-700000</id>
+            <type conceptID="0000-93">useItem</type>
+            <detail conceptID="0000-1134" name="Work" isRecordPointer="true">H-ID-395039</detail>
+            <detail conceptID="0000-1188" name="Work (Cursus)">Quem terra pontus sidera colunt
+                adorant praedicant trinam regentem machinam claustrum Mariae bajulat ; Cui luna sol
+                et omnia deserviunt per tempora perfusa caeli gratia gestant puellae viscera ; Beata
+                mater munere cujus supernus artifex mundum pugillo continens ventris sub arca
+                clausus est ; Beata caeli nuntio fecunda sancto spiritu desideratus gentibus cujus
+                per alvum fusus est ; Jesu tibi sit gloria qui natus es de virgine cum patre et almo
+                spiritu in sempiterna saecula ; Amen [Hymn] (useItem)</detail>
+        </record>
+        <record>
+            <id>H-ID-700001</id>
+            <type conceptID="0000-93">useItem</type>
+            <detail conceptID="0000-1134" name="Work" isRecordPointer="true">H-ID-398123</detail>
+            <detail conceptID="0000-1188" name="Work (Cursus)">Domine, Dominus noster,quam
+                admirabile est nomen tuum in universa terra !quoniam elevata est magnificentia tua
+                super caelos. Ex ore infantium et lactentium perfecisti laudem propter inimicos
+                tuos,ut destruas inimicum et ultorem. Quoniam videbo caelos tuos, opera digitorum
+                tuorum,lunam et stellas quae tu fundasti. Quid est homo, quod memor es ejus ?aut
+                filius hominis, quoniam visitas eum ? Minuisti eum paulominus ab angelis ;gloria et
+                honore coronasti eum ; et constituisti eum super opera manuum tuarum. Omnia
+                subjecisti sub pedibus ejus,oves et boves universas,insuper et pecora
+                campi, volucres caeli, et pisces marisqui perambulant semitas maris. Domine, Dominus
+                noster,quam admirabile est nomen tuum in universa terra ! [Psalm] (useItem)</detail>
+
+            <!-- Possible de faire des liens vers d'autres entités (comme Use ou les relations) ? 
+                <detail conceptID="0000-20" name="Use" isRecordPointer="true">H-ID-600001</detail>
+                <detail conceptID="0000-102" name="Record Relationship">H-ID-800002</detail>-->
+
+        </record>
+        <record>
+            <id>H-ID-700002</id>
+            <type conceptID="0000-93">useItem</type>
+            <detail conceptID="0000-1188" name="Work (Cursus)">O admirabile commercium creator
+                generis humani animatum corpus sumens de virgine nasci dignatus est et procedens
+                homo sine semine largitus est nobis suam deitatem [Antiphon] (useItem)</detail>
+            <detail conceptID="0000-1134" name="Work" isRecordPointer="true">H-ID-399221</detail>
+
+            <!-- <detail conceptID="0000-20" name="Use" isRecordPointer="true">H-ID-600002</detail>
+            <detail conceptID="0000-102" name="Record Relationship">H-ID-800003</detail>-->
+
+        </record>
+        <record>
+            <id>H-ID-700003</id>
+            <type conceptID="0000-93">useItem</type>
+            <detail conceptID="0000-1188" name="Work (Cursus)">Matins (useItem)</detail>
+            <detail conceptID="0000-1134" name="Work" isRecordPointer="true">H-ID-394820</detail>
+
+            <!-- <detail conceptID="0000-20" name="Use" isRecordPointer="true">H-ID-600000</detail>
+            <detail conceptID="0000-102" name="Record Relationship">H-ID-800001</detail>-->
+
+        </record>
+        <record>
+            <id>H-ID-700004</id>
+            <type conceptID="0000-93">useItem</type>
+            <detail conceptID="0000-1188" name="Work (Cursus)">Benedicta tu in mulieribus et
+                benedictus fructus ventris tui [Antiphon] (useItem)</detail>
+            <detail conceptID="0000-1134" name="Work" isRecordPointer="true">H-ID-395935</detail>
+
+            <!--<detail conceptID="0000-20" name="Use" isRecordPointer="true">H-ID-600001</detail>
+            <detail conceptID="0000-102" name="Record Relationship">H-ID-800002</detail> -->
+
+        </record>
+        <record>
+            <id>H-ID-700005</id>
+            <type conceptID="0000-93">useItem</type>
+            <detail conceptID="0000-1188" name="Work (Cursus)">Hours of the Virgin
+                (useItem)</detail>
+            <detail conceptID="0000-1134" name="Work" isRecordPointer="true">H-ID-394805</detail>
+        </record>
+
+        <!-- <detail conceptID="0000-20" name="Use" isRecordPointer="true">H-ID-600002</detail>
+        <detail conceptID="0000-102" name="Record Relationship">H-ID-800003</detail>-->
+
+        <!-- Template pour Relationship
+           <record>
+            <!-\- Specify the entity identifier in the source database (numeric or alphanumeric) if entity may be the target of a record pointer field, including the target record pointer of a  relationship record.-\->
+            <id>RECORD-IDENTIFIER</id>
+            <!-\- type specifies the record (entity) type of the record -\->
+            <type conceptID="2-1">Record relationship</type>
+            <url>URL</url>
+            <notes/>
+            <detail conceptID="2-1" name="Title for relationship">TEXT</detail>
+            <detail conceptID="2-3" name="Short description">MEMO_TEXT</detail>
+            <detail conceptID="2-5" name="Target record" isRecordPointer="true">RECORD_REFERENCE</detail>
+            <detail conceptID="2-6" name="Relationship type" termID="VALUE"/>
+            <detail conceptID="2-7" name="Source record" isRecordPointer="true">RECORD_REFERENCE</detail>
+            <detail conceptID="2-8" name="Interpretation / commentary &gt;" isRecordPointer="true">RECORD_REFERENCE</detail>
+            <detail conceptID="2-10" name="Start date/time">DATE</detail>
+            <detail conceptID="2-11" name="End date/time">DATE</detail>
+            <detail conceptID="1125-101" name="Certainty" termID="VALUE"/>
+            <detail conceptID="0000-1121" name="Source">TEXT</detail>
+            <detail conceptID="0000-1135" name="Variant use">TEXT</detail>
+        </record>-->
+
+        <!-- 3 essais de type relations/clés étrangères -->
+        
+        <record>
+            <!-- Matins : Contains : Quem terra pontus... -->
+            <id>H-ID-800001</id>
+            <type conceptID="2-1">Record relationship</type>
+            <detail conceptID="2-1" name="Title for relationship">Contains | Matins (useItem) &amp;lt;-&amp;gt; Quem terra pontus sidera colunt
+                adorant praedicant trinam regentem machinam claustrum Mariae bajulat ; Cui luna sol
+                et omnia deserviunt per tempora perfusa caeli gratia gestant puellae viscera ; Beata
+                mater munere cujus supernus artifex mundum pugillo continens ventris sub arca
+                clausus est ; Beata caeli nuntio fecunda sancto spiritu desideratus gentibus cujus
+                per alvum fusus est ; Jesu tibi sit gloria qui natus es de virgine cum patre et almo
+                spiritu in sempiterna saecula ; Amen [Hymn] (useItem)</detail>
+            <detail conceptID="2-7" name="Source record" isRecordPointer="true">H-ID-700003</detail>
+            <detail conceptID="2-6" name="Relationship type" termID="3262" termConceptID="2-3262"
+                ParentTerm="Overlap">Contains</detail>
+            <detail conceptID="2-5" name="Target record" isRecordPointer="true">H-ID-700000</detail>
+        </record>
+        <record>
+            <!-- Domine, Dominus noster, ... : ImmediatelyFollows : Benedicta tu... -->
+            <id>H-ID-800002</id>
+            <type conceptID="2-1">Record relationship</type>
+            <detail conceptID="2-1" name="Title for relationship">ImmediatelyFollows | Domine, Dominus noster,quam admirabile est nomen tuum in
+                universa terra !quoniam elevata est magnificentia tua super caelos. Ex ore infantium
+                et lactentium perfecisti laudem propter inimicos tuos,ut destruas inimicum et
+                ultorem. Quoniam videbo caelos tuos, opera digitorum tuorum,lunam et stellas quae tu
+                fundasti. Quid est homo, quod memor es ejus ?aut filius hominis, quoniam visitas
+                eum ? Minuisti eum paulominus ab angelis ;gloria et honore coronasti eum ; et
+                constituisti eum super opera manuum tuarum. Omnia subjecisti sub pedibus ejus,oves
+                et boves universas,insuper et pecora campi, volucres caeli, et pisces marisqui
+                perambulant semitas maris. Domine, Dominus noster,quam admirabile est nomen tuum in
+                universa terra ! [Psalm] (useItem) &amp;lt;-&amp;gt; Benedicta tu in mulieribus et
+                benedictus fructus ventris tui [Antiphon] (useItem)</detail>
+            <detail conceptID="2-7" name="Source record" isRecordPointer="true">H-ID-700001</detail>
+            <detail conceptID="2-6" name="Relationship type" termID="3266" termConceptID="2-3266"
+                ParentTerm="Sequence">ImmediatelyFollows</detail>
+            <detail conceptID="2-5" name="Target record" isRecordPointer="true">H-ID-700004</detail>
+        </record>
+        <record>
+            <!-- Hours of the Virgin : Contains : O admirabile commercium... -->
+            <id>H-ID-800003</id>
+            <type conceptID="2-1">Record relationship</type>
+            <detail conceptID="2-1" name="Title for relationship">Contains | Hours of the Virgin (useItem) &amp;lt;-&amp;gt; O admirabile
+                commercium creator generis humani animatum corpus sumens de virgine nasci dignatus
+                est et procedens homo sine semine largitus est nobis suam deitatem [Antiphon]
+                (useItem)</detail>
+            <detail conceptID="2-7" name="Source record" isRecordPointer="true">H-ID-700005</detail>
+            <detail conceptID="2-6" name="Relationship type" termID="3262" termConceptID="2-3262"
+                ParentTerm="Overlap">Contains</detail>
+            <detail conceptID="2-5" name="Target record" isRecordPointer="true">H-ID-700002</detail>
+        </record>
+    </records>
+</hml>

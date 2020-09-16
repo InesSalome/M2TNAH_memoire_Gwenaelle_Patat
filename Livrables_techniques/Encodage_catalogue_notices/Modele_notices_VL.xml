@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Les livres d''heures manuscrits de la Bibliothèque nationale / Abbé V.
+               Leroquais</title>
+            <author>Leroquais, Victor (1875-1946)</author>
+            <respStmt>
+               <resp>Encodage réalisé pour l'IRHT dans le cadre du projet HORAE, structurant
+                  sémantiquement le travail intellectuel de Victor Leroquais avec l'aide des
+                  recommandations de la TEI.</resp>
+               <persName>
+                  <forename>Gwenaëlle</forename>
+                  <surname>Patat</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-05-07</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>IRHT, mai 2020.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Les livres d''heures manuscrits de la Bibliothèque nationale / Abbé V.
+                     Leroquais</title>
+                  <author><forename>Victor</forename>
+                     <surname>Leroquais</surname></author>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>
+                     <date>1927</date>
+                  </publisher>
+                  <pubPlace>Paris</pubPlace>
+                  <availability>
+                     <licence>Domaine Public</licence>
+                  </availability>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <!-- Ajout d'un @n qui reprend le numéro de la notice. Notice 1, p.1-7 de l'OCR. -->
+   <TEI n="1">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <p>cf. supra</p>
+            </publicationStmt>
+            <sourceDesc>
+               <listWit>
+                  <witness>
+                     <msDesc>
+                        <msIdentifier>
+                           <repository>Bibliothèque nationale</repository>
+                           <idno>ms.lat. 757</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <summary>LIVRE D’HEURES ET MISSEL FRANCISCAINS. Ce manuscrit présente une
+                              combinaison assez rare du livre d’Heures et du missel. Le premier
+                              occupe les <locus>fol. 16 à 222</locus> et <locus>376 v° à
+                              432</locus>; le second, les <locus>fol. 223 à 376</locus> et
+                                 <locus>433 à 443</locus>. Le calendrier <locus>(fol. 3 v° à
+                                 15)</locus> est commun à l’un et à l’autre.</summary>
+                           <msItem>
+                              <note>Feuillet de garde. Ancienne cote : « 4299 c. »</note>
+                           </msItem>
+                           <msItem>
+                              <title>Tables du manuscrit<locus>Ar à Cr</locus></title> 
+                           </msItem>
+                           <msItem>
+                              <locus>Dv-Er</locus>
+                              <incipit>« Ratio pasce... »</incipit>
+                              <note>s’étend de 1380 à 1520.</note>
+                           </msItem>
+                           <msItem>
+                              <locus>Fr à Ir.</locus>
+                              <title>Conjonctions et oppositions lunaires allant de 1395 à
+                                 1400</title>
+                              <incipit><locus>F</locus>Ratio lune pro anno D. n. I. C.
+                                 MCCCLXXXXV.</incipit>
+                              <quote><locus>I v°</locus>. « Ratio lune pro anno Christi MCCCC in
+                                 Ytalia.</quote>
+                              <note>Les fol. F à I paraissent avoir été ajoutés, autant du moins
+                                 qu’on peut en juger par l’ancien foliotage et par le format des
+                                 feuillets ; mais l’écriture est de la même époque. </note>
+                           </msItem>
+                           <msItem>
+                              <locus>3v à 15r</locus>
+                              <title>Calendrier franciscain</title>
+                              <note>Les mentions qui suivent sont en lettres rouges. — (25 mai). «
+                                 Translatio s. Francisci conf. » — (13 juin) « Nat. s. Antonii conf.
+                                 ordinis Minorum. » — (20 juin). « ... Oct. s. Antonii conf. » — (12
+                                 août) « S. Clare virg. de ordine dominarum. » — (4 oct.) « Nat. s.
+                                 Francisci. »</note>
+                           </msItem>
+                           <msItem>
+                              <locus>18r à 49r</locus>
+                              <title>Heures abrégées pour chacun des jours de la semaine.</title>
+                              <msItem>
+                                 <locus>18 à 20</locus>
+                                 <title>Heures de la Trinité.</title>
+                                 <rubric><locus>f.18r</locus> Die dominica. Ad matutinas
+                                    Trinitatis.</rubric>
+                              </msItem>
+                              <msItem>
+                                 <locus>22r à 29r</locus>
+                                 <title>Heures des défunts.</title>
+                                 <rubric><locus>22r</locus> Die lune. Ad vesperas pro
+                                    defunctis.</rubric>
+                              </msItem>
+                              <msItem>
+                                 <locus>31r à 33r</locus>
+                                 <title>Heures du Saint-Esprit.</title>
+                                 <rubric><locus>31r</locus> Die Martis. Ad matutinas de Spiritu
+                                    sancto.</rubric>
+                              </msItem>
+                              <msItem>
+                                 <locus>35r à 37r</locus>
+                                 <title>Heures de tous les saints.</title>
+                                 <rubric><locus>35r</locus> Die Mercurii. Ad matutinas omnium
+                                    sanctorum.</rubric>
+                              </msItem>
+                              <msItem>
+                                 <locus>39 à -41r</locus>
+                                 <title>Heures du Saint-Sacrement.</title>
+                                 <rubric><locus>39r</locus> Die Iovis. Ad matutinas de
+                                    sacra¬mento.</rubric>
+                              </msItem>
+                              <msItem>
+                                 <locus>43r à 45r</locus>
+                                 <title>Heures de la Croix.</title>
+                                 <rubric><locus> 43r</locus> Die Veneris. Ad matutinas de
+                                    sanctaCruce.</rubric>
+                              </msItem>
+                              <msItem>
+                                 <locus>47r à 49r</locus>
+                                 <title>Heures de la Vierge.</title>
+                                 <rubric><locus>47r</locus> Die sabbati. Ad matutinas beate Marie
+                                    virginis.</rubric>
+                              </msItem>
+                           </msItem>
+                           <msItem>
+                              <locus>Fol. 51r à 102r</locus>
+                              <title>Office de la Vierge.</title>
+                              <rubric><locus>51r.</locus>Incipit officium beate virginis Marie
+                                 secundum consuetudinem sancte romane Ecclesie et secundum ordinem
+                                 Fratrum Minorum. Ad matutinum...</rubric>
+                              <note>Les Matines suivies des antiennes, psaumes, leçons et répons
+                                 pour le temps de 1’Avent, pour celui de Noël et pour celui de
+                                 l’octave de Noël à l’Épiphanie.</note>
+                              <msItem>
+                                 <locus>100r</locus>
+                                 <rubric>A Pascha usque ad Pentecostes cantatur oratio pulcherrima
+                                    et devota ad beatam Mariam et ad beatum Iohannem
+                                    evangelistam.</rubric>
+                                 <incipit>O intemerata et in eternum benedicta... et esto pia michi
+                                    peccatori in omnibus auxiliatris (stc).O Iohannes beatissime...
+                                    — 100 v°. ...O due gemme celestes... — 101. ...vobis duobus ego
+                                    miser peccator, hodie et omni tempore, corpus meum et animam
+                                    meam com¬mendo... — 101 v°. ...gratiarum largitor, qui cum Patre
+                                    et Filio consubstantialis est. Qui... » </incipit>
+                                 <note>Dans ce manuscrit et dans le ms. latin 1352 ci-après, cette
+                                    prière ter¬mine l’office de la Vierge, comme le Salve regina, le
+                                    Regina celi, l'Alma redemptoris ou l'Ave, regina celorum
+                                    auxquels elle fait suite.</note>
+                              </msItem>
+                           </msItem>
+                           <msItem>
+                              <locus>103r-105r</locus>
+                              <title>Septem gaudia beate Marie virginis.</title>
+                              <msItem>
+                                 <rubric><locus>f.103r</locus> Primum gaudium virginis
+                                    Marie.</rubric>
+                                 <incipit>Sancta Maria, domina mea dulcissima, rogo te per illud
+                                    gaudium quod habuisti quando tibi angelus Gabriel
+                                    apparuit...</incipit>
+                                 <explicit>... liberare digneris.</explicit>
+                                 <note>Suivent les six autres joies : la Nativité, la Présentation
+                                    de l’enfant Jésus au temple, l’Épiphanie, le baptême du Sauveur
+                                    et son premier miracle, la Résurrection, l’Ascension.</note>
+                              </msItem>
+                              <msItem>
+                                 <locus>104v</locus>
+                                 <title>Oratio</title>
+                                 <incipit>Supplicatio mea ascendat ad te, Deus: intret oratio mea in
+                                    conspectu tuo, Christe. Perveniat deprecatio mea ad te.
+                                    Domine...</incipit>
+                                 <explicit><locus>105v</locus>... et te sine confusione videre, cui
+                                    est honor et gloria. Per...»</explicit>
+                              </msItem>
+                              <msItem>
+                                 <title>Oratio</title>
+                                 <incipit>Benedicta sit hora illa qua Deus homo annunciatus
+                                    est...</incipit>
+                                 <explicit>... et impleatur desiderium meum.Amen.</explicit>
+                              </msItem>
+                           </msItem>
+                           <msItem>
+                              <locus>108v à 139r</locus>
+                              <title>Office des défunts.</title>
+                              <rubric><locus>f.108v</locus> Incipit offitium in agenda
+                                 mortuorum...</rubric>
+                           </msItem>
+                           <msItem>
+                              <locus>141r à 147r</locus>
+                              <title>Psaumes de la pénitence.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>149r à 154r</locus>
+                              <title>Litanies</title>
+                              <note>aucun saint local</note>
+                              <explicit><locus>f.152r</locus>...R/ Oremus pro ministro nostro, V/
+                                 Dominus conservet eum et vivificet eum...</explicit>
+                           </msItem>
+                           <msItem>
+                              <locus>156r à 177r</locus>
+                              <title>Office de la Passion.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>177r à 190r</locus>
+                              <title>Évangile de la bénédiction des Rameaux et Passion selon saint
+                                 Matthieu.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>191r à 199r</locus>
+                              <title>Passion selon saint Marc.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>200r à 207r</locus>
+                              <title>Passion selon saint Luc.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>208r</locus>
+                              <title>Évangile du Jeudi saint.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>210r à 217r</locus>
+                              <title>Passion selon saint Jean.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>218r</locus>
+                              <rubric><title>Oratio s. Augustini.</title></rubric>
+                              <incipit>Dulcissime Yesu Christe, Domine, verus Deus, qui de sinu
+                                 Patris omnipotentis missus es in mondum (sic) relaxare
+                                 peccata...</incipit>
+                              <explicit><locus>220r</locus>...et gloriosus in secula
+                                 seculorum.</explicit>
+                           </msItem>
+                           <!-- Pas automatisable et faux : on ne va pas jusqu'aux folios 376r et 443e dans le <msItem>.
+                              <msItem>
+                              <locus>223r-376r et 333r-443r</locus>
+                              <title>Missel franciscain</title>
+                              <note>La partie qui suit et qui va du fol. 223 à 376 est un missel des
+                                 principales fêtes.</note>
+                              <msItem>
+                                 <locus>223r-254r</locus>
+                                 <title>Messes votives de la semaine</title>
+                                 <note>L’ordre est le même que celui des Heures abrégées
+                                    (ff.18r-49r). Chacune des messes votives est suivie du prologue
+                                    de l’évangile de saint Jean.. Le Confiteor de la première messe
+                                    votive (f.223v) est nettement franciscain. Confiteor Deo
+                                    omnipotenti et beate Marie virgini et beato Francisco et omnibus
+                                    sanctis Dei, et te (sic), Pater, quia ego peccator peccavi nimis
+                                    contra legem Dei mei...</note>
+                              </msItem> -->
+                           <msItem>
+                              <note>La partie qui suit et qui va du fol. 223 à 376 est un missel des principales fêtes. Celui-ci comprend les messes votives de la semaine (fol. 223 à 254) dont l’ordre est le même que celui des Heures abrégées (fol. 18 à 49), l'ordo missae (fol. 256 à 276) et les principales messes du temporal et du sanctoral (fol. 277 à 359) suivies du commun des saints (fol. 360 v° à 376). Chacune des messes votives est suivie du prologue de l’évangile de saint Jean. Le Confiteor de la première messe votive (fol. 223 v°) est nettement franciscain ; « Confiteor Deo omnipotenti et beate Marie virgini et beato Francisco et omnibus sanctis Dei, et te (sic), Pater, quia ego pecca­tor peccavi nimis contra legem Dei mei... »</note>
+                           </msItem>
+                              <msItem>
+                                 <locus>256r à 276r</locus>
+                                 <title>Ordo missae</title>
+                              </msItem>
+                              <msItem>
+                                 <locus>277r à 359r</locus>
+                                 <title>Principales messes du temporal et du sanctoral</title>
+                              </msItem>
+                              <msItem>
+                                 <locus>360v à 376r</locus>
+                                 <title>Commun des saints</title>
+                              </msItem>
+                              <msItem>
+                                 <locus>376v à 389r</locus>
+                                 <title>Office de saint Jean-Baptiste.</title>
+                              </msItem>
+                              <msItem>
+                                 <locus>389v à 403r</locus>
+                                 <title>Office de saint Nicolas.</title>
+                              </msItem>
+                              <msItem>
+                                 <locus>403v à 417r</locus>
+                                 <title>Office de saint Antoine, ermite.</title>
+                              </msItem>
+                              <msItem>
+                                 <locus>417v à 427r</locus>
+                                 <title>Office de sainte Catherine.</title>
+                              </msItem>
+                              <msItem>
+                                 <locus>427v</locus>
+                                 <rubric>Quicumque dixerit infrascriptam orationem vel super se
+                                    portaverit, inimicus ei nocere non poterit. Beatus Augustinus
+                                    hanc orationem scripsit in illa die qua obiit. Et si quis eam
+                                    qualibet die bono et puro corde dixerit, in illa die non
+                                    peribit, nec — 428 — in aqua nec in igne, nec veneno mortifero
+                                    morietur. Et antequam transmigret de hoc seculo videbit beatam
+                                    et gloriosam virginem Mariam. Et si quod ab ea iuste petierit,
+                                    impetrabit, et per tot annos per quot dixerit, per tot dies
+                                    presciet mortem suam.</rubric>
+                                 <incipit>Obsecro te, Maria, mater misericordie et summe dignitatis,
+                                    per illam inextimabilem letitiam qua exultavit spiritus tuus...
+                                    ut michi famulo tuo ill. impetres... </incipit>
+                                 <explicit><locus>428v</locus>... exaudi me, 0 dulcissima Maria,
+                                    mater misericordie.</explicit>
+                              </msItem>
+                              <msItem>
+                                 <incipit><locus>428v</locus>Domine Deus omnipotens, fac me Ma. et
+                                    N. fortes et stabiles contra omnes, inimicos
+                                    nostros...</incipit>
+                                 <explicit><locus>429r</locus> ...et animas corporum
+                                    nostrorum.</explicit>
+                              </msItem>
+                              <msItem>
+                                 <rubric><locus>429v</locus>Infrascripta oratio est oratio
+                                    venerabilis doctoris Bede. Quicumque omni die flexis genibus
+                                    dixerit, nec diabolus nec malus homo ei nocere poterit, nec sine
+                                    confessione morietur, et per triginta dies ante mortem suam
+                                    videbit gloriosam virginem Mariam sibi in auxilio
+                                    preparatam.</rubric>
+                                 <incipit>Domine Iesu Christe, qui septem verba in ultimo [die] vite
+                                    tue in cruce pendens dixisti... </incipit>
+                                 <explicit><locus>430v</locus> ...iocundari et epulari et commorari.
+                                    Per ...</explicit>
+                              </msItem>
+                              <msItem>
+                                 <rubric><title>Oratio.</title></rubric>
+                                 <incipit>Concede michi, misericors Deus, que tibi placita sunt
+                                    ardenter concupis¬cere...</incipit>
+                                 <explicit><locus>432r</locus> ...in patria frui per gloriam.
+                                    Per...</explicit>
+                              </msItem>
+                                 <msItem><note>Les fol. 433 à 443 contiennent la fin du missel.</note>
+                              <msItem>
+                                 <rubric><locus>433r</locus><title>Exorcismus salis et
+                                    aque.</title></rubric>
+                              </msItem>
+                              <msItem>
+                                 <rubric><locus>435r</locus><title>Ordo ad catecuminum
+                                       faciendum.</title></rubric>
+                              </msItem>
+                              <msItem>
+                                 <rubric><locus>440r</locus><title>Ordo ad incidendum capil¬lum
+                                       infantium.</title></rubric>
+                              </msItem>
+                              <msItem>
+                                 <locus>440v à 443r</locus>
+                                 <title>Bénédictions diverses.</title>
+                                 <rubric><locus>440v</locus> Benedictio fructuum arborum.</rubric>
+                                 <rubric><locus>441r</locus> Benedictio agni pascalis.</rubric>
+                                 <rubric>Benedictio panis in ecclesia populo distribuendo
+                                    (sic).</rubric>
+                                 <rubric><locus>441v</locus> Benedictio casei et melis (sic) in
+                                    Pasca.</rubric>
+                                 <rubric>Benedictio casei et ovorum.</rubric>
+                                 <rubric><locus>442r</locus> Benedictio nove domus.</rubric>
+                                 <rubric>Benedictio incensi.</rubric>
+                                 <rubric><locus>442v</locus>Benedictio pere et baculi.</rubric>
+                                 <rubric><locus>443v</locus>Benedictio vestimentorum.</rubric>
+                              </msItem>
+                              </msItem>
+                        </msContents>
+                        <physDesc>
+                           <objectDesc>
+                              <supportDesc material="parch">
+                                 <support>
+                                    <material>Parch.</material>
+                                 </support>
+                                 <extent>
+                                    <measure type="composition" unit="leaf" quantity="443">443 ff. à
+                                       2 col., plus les feuillets préliminaires cotés A à
+                                       G.</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                       <height quantity="265">265</height>
+                                       <width quantity="207">207</width>
+                                    </dimensions>
+                                 </extent>
+                              </supportDesc>
+                              <layoutDesc>
+                                 <layout columns="2">2 col.</layout>
+                              </layoutDesc>
+                           </objectDesc>
+                           <scriptDesc>
+                              <summary>L’écriture et la décoration sont italiennes; les fautes
+                                 d’orthographe sont assez fréquentes ainsi que les erreurs de
+                                 transcription.</summary>
+                              <scriptNote/>
+                           </scriptDesc>
+                           <decoDesc>
+                              <decoNote>
+                                 <p>Le manuscrit s’ouvre par deux peintures à pleine page ajoutées
+                                    au XVIe siècle : fol. D, écu armorié: écartelé aux Ier et 4e
+                                    d'azur à la grenade couronnée d’or, aux 2e et 3e d'or à la fasce
+                                    de sable accom¬pagnée de trois de trèfles de sinople, 2 eli ;
+                                    Vécu est timbré d’un heaume grillé de face aux lambre¬quins d’or
+                                    et d’azur ; le heaume est cimé d’un caducée au pied duquel se
+                                    déroule la devise : UTRIQUE VITE ; au-dessous de l’écu, autre
+                                    devise : IN MANIBUS TUIS SORTES MEE ; plus bas sur un cartouche
+                                    : IULIAN REGIN. — Fol. 2 v°, autre peinture à pleine page
+                                    également ajoutée au xvie siècle : memes armes que fol. D, mais
+                                    ici elles sont accolées d’un bâton de chantre et surmontées d’un
+                                    chapeau ecclésiastique noir ; au-dessous, la devise : VERBUM
+                                    DOMINI MANET IN ETERNUM ; plus bas, un cartouche : ANNA REGIN.
+                                    Il s’agit en effet d’Anne (ou Annet) Régin, protonotaire
+                                    apostolique, grand-chantre de la cathédrale de Clermont
+                                    (1528-1529) qui mourut en 1556. Julian, dont le nom figure sur
+                                    le premier blason, était un de ses frères. — On retrouve ces
+                                    armes complètes au fol. 102 v° ; on rencontre également et à
+                                    plusieurs reprises les Ier et 4me quartiers isolés, soit seuls,
+                                    soit parfois accompagnés des lettres B. E (fol. 51,108 v° et 403
+                                    V0). — Au fol. 51, la targe portant les armoiries à la grenade
+                                    est timbrée d’un heaume de profila lambrequins, couronné et cimé
+                                    d’une tête et col de cygne. Le timbre avec son cimier appartient
+                                    à la décoration primitive.</p>
+                                 <p>La décoration originale du manuscrit se compose de
+                                    soixante-treize peintures à pleine page. Elles sont de valeur
+                                    inégale, mais beaucoup d’entre elles attestent un talent
+                                    véritable. La plupart sont sur fond d’or semé de dessins
+                                    géométriques au pointillé ; çà et là, quelques fonds quadrillés
+                                    ou losangés or et azur. Dans quelques peintures, les fonds
+                                    quadrillés ou losanges sont décorés d’un emblème formé de deux
+                                    anneaux entrelacés (fol. 140 et 340) ; on rencontre également
+                                    plusieurs fonds unicolores avec des semis de lettres stylisées,
+                                    SB (ou FB), lettres qui se terminent toujours par des feuilles
+                                    (fol. 302, 308 v°, 315); parfois même, on trouve anneaux et
+                                    lettres stylisées réunis sur un même fond (fol. 333 v°, 340 v°
+                                    et 345). — Fol. 17, la créa¬tion du ciel et de la terre ; 21, la
+                                    séparation des éléments ; 30, la création des plantes ; 34, la
+                                    création des astres ; 38, la création des poissons et des
+                                    oiseaux ; 42, la création des animaux ; la création de l'homme
+                                    et de la femme ; 46, Adam et Èvc dans le paradis terrestre. —
+                                    Les compo¬sitions précédentes servent d’illustration aux Heures
+                                    abrégées pour les sept jours de la semaine. Celles qui suivent
+                                    (fol. 50 v° à 84) figurent en tête des Heures de la Vierge :
+                                    fol. 50 v°, la trahison de Judas et l'arrestation du Sauveur
+                                    (Matines) ; les Laudes ne comportent pas de pein¬ture ; 65 v°,
+                                    le Christ devant Pilate (Prime) ; 69, Jésus portant sa croix
+                                    (Tierce) ; 72, Jésus attaché à la croix (Sexte) ; 75,
+                                    Crucifixion (None), (pl. VIII) ; 78, descente de croix (Vêpres)
+                                    ; 84, mise au tombeau (Complies). La série de ces peintures des
+                                    Heures de la Vierge diffère de celle que l’on trouve dans les
+                                    autres manuscrits.</p>
+                                 <p>Les peintures qui suivent se rapportent aux prières en l’honneur
+                                    de la Vierge (fol. 102 v°), à l’office des défunts (107 v°), aux
+                                    psaumes pénitentiels (140 à 148), aux heures et aux évangiles de
+                                    la Passion (155 à 218), aux messes du temporal et du sanctoral
+                                    (222 à 373) et enfin aux béné¬dictions qui terminent le missel
+                                    (432 v°). — Fol. 102 v°, la Vierge et l’enfant Jésus ; devant
+                                    eux, personnage agenouillé ; 107 v°, inhumation d’un prélat dans
+                                    une église ; 140, transport de l’arche d’alliance ; 148,
+                                    procession de pénitence ; 155, le Christ assis sur un
+                                    arc-en-ciel et montrant ses plaies ; à ses pieds, la Vierge (?)
+                                    et s. Jean-Baptiste ; dans le haut du tableau, anges portant les
+                                    attributs de la Passion ; 178 v°, s. Matthieu ; 190 v°, s. Marc
+                                    ; 199 v°, s. Luc ; 209 v°, s. Jean ; 217 v°, bénédiction de
+                                    l’eau baptismale ; 222 v°, la Trinité (pl. IX) ; 230, Christ de
+                                    pitié entre la Vierge et s. Jean ; attributs de la Passion (pl.
+                                    X) ; 234 v°, la colombe de l’Esprit-Saint au milieu d’un globe
+                                    d’or entouré de rayons; 238 v°, le couronnement de la Vierge
+                                    (pl. XI) ; 243 V0, la Cène ; 247 v°, la flagellation ; 251,
+                                    Vierge de miséricorde ; 255 v°, l’élévation de l’hostie (pl.
+                                    XII) ; 269 v°, crucifixion ; 276 v°, la Nativité (le bain de
+                                    l’enfant Jésus) ; 279 v°, le martyre de s. Étienne ; 282 v°, s.
+                                    Jean l’évangéliste (le miracle du calice empoisonné) ; 284 v°,
+                                    la Circon¬cision ; 286 v°, l’Épiphanie ; 289 v°, la tentation de
+                                    s. Antoine ; 291, le martyre de sainte Agnès ; 292 v°, la
+                                    Purification ; 295 v°, la salutation angélique ; 298 v°, la
+                                    tentation du Christ ; 302, la Transfiguration ; 305, la guérison
+                                    du démoniaque muet ; 308 v°, la multiplication des pains ; 311
+                                    v°, la résurrection de Lazare ; 315, l’entrée à Jérusalem le
+                                    jour des Rameaux ; 318, la Résur¬rection ; 320 v°, s. Georges
+                                    vainqueur du dragon ; à droite, une reine dont la robe est semée
+                                    des initiales MR ; 322, l’élévation de l’hostie ; 324 v°,
+                                    l’Ascension ; 327 v°, la Pentecôte ; 330 v°, la naissance de s.
+                                    Jean-Baptiste ; 333 v°, s. Pierre et s. Paul provoquant la chute
+                                    de Simon le magicien devant Néron ; 336 v°, sainte
+                                    Marie-Madeleine recevant la communion des mains d’un ange ; 340,
+                                    le martyre de s. Laurent ; 342, l’Assomption ; 344 v°, la
+                                    naissance de la Vierge ; 348, l’Invention de la sainte croix
+                                    (pl. XIII) ; 350 v°, s. Michel ; 353 v°, s. François d’Assise
+                                    (les stigmates) ; 355 v°, le martyre de sainte Catherine ; 356
+                                    v°, s. Nicolas ; 357, femme sou¬tenant d’une main deux anneaux
+                                    entrelacés et de l’autre les lettres stylisées S. B. (ou F. B.)
+                                    ; 357 v°, l’incrédulité de s. Thomas ; 360, la pêche miraculeuse
+                                    ; 362 v° et 365, scènes de mar¬tyre ; 367 v°, un confesseur ;
+                                    370, s. Jérôme ; 373, groupe de vierges ; 432 v°, le baptême du
+                                    Sauveur.</p>
+                                 <p>La décoration du manuscrit se complète par un certain nombre
+                                    d’initiales historiées sur fond d’or, renfermant des sujets
+                                    variés et pittoresques, traités avec beaucoup de verve et de
+                                    finesse ; plusieurs de ces sujets ornent les encadrements qui
+                                    accompagnent les initiales : fol. 18 v°, enfant brandissant une
+                                    pique ; 23 v°, dragon ailé ; 31 v°, jeune homme brisant un bâton
+                                    sur son genou ; à sa droite, un jeune homme ; à sa gauche, une
+                                    jeune femme ; 33, monstre ; 39, enfant grimpant à un arbre pour
+                                    dénicher un nid d’oiseau ; 39 v°, enfant tuant un serpent à
+                                    l’aide d’un poignard ; 40 v°, grotesque ; 41, enfants à cheval
+                                    l’un sur un lion, l’autre sur un aigle ; 44 v° et 48 v°, oiseaux
+                                    ; 48, homme sauvage ; jeune fille ; 49, chimère ; 73, oiseau ;
+                                    166, buste de femme ; 167 v° et 177, monstres ; 191, combat
+                                    entre deux enfants nus ; 210, dragon ailé ; 230 v°, la mort ;
+                                    277, enfant combattant un monstre ; 293, Malachie ; 296, Isaïe ;
+                                    312, dragon ailé ; 305 v°, 309, 315 v°, 318 v°, 321, 322 v°,
+                                    325, 331, 340 v°, 342 v° ,345, prophètes, apôtres, martyrs et
+                                    saints anonymes ; 348 v°, croix fichée ; 351, s. Michel ; 356,
+                                    sainte Catherine ; 357, s. Nicolas ; 363 et 365 v°, martyrs ;
+                                    368 et 370 v°, confesseurs ; 373 v°, vierge ; 376 v°, s.
+                                    Jean-Baptiste enfant ; 379 v°, 382, 383, 384, 385, 386,
+                                    personnages divers ; 388, s. Jean-Bap¬tiste ; 389 v° et 396, s.
+                                    Nicolas ; 397, femme ; singe ; 398 v°, s. Nicolas ; 399 v°,
+                                    femme ; chien ; 402, femme ; 403 v°, s. Antoine, ermite ; 417
+                                    v°, sainte Catherine ; 423, femme portant deux anneaux
+                                    entrelacés. — Initiales fleuries sur fond d’or, fol. 19 et 36
+                                    v°. — Belles initiales de cou¬leur dont le champ est occupé par
+                                    des feuilles stylisées sur fond d’or. — Presque toutes ces
+                                    ini¬tiales se prolongent dans les marges en lourds rinceaux de
+                                    couleur et de feuillage semés de petites rosaces d’or dans le
+                                    goût italien.</p>
+                                 <p>Comme il a été dit un peu plus haut, le manuscrit 22 de la
+                                    collection Smith-Lesouëf, à Nogent- sur-Marne, est une réplique
+                                    du ms. latin 757. Mais il importe de distinguer soigneusement,
+                                    dans ce livre d’Heures, la décoration originale de celle qui a
+                                    été ajoutée. Cette dernière en effet appartient à une autre
+                                    main, peut-être même à plusieurs mains. Seule la première dérive
+                                    du ms. lat. 757 et mérite d’être décrite ici. Elle se compose de
+                                    dix peintures à pleine page, les unes sur fond losangé ou
+                                    quadrillé, les autres sur fond unicolore (or ou couleurs),
+                                    toutes étroitement apparentées à celles du manuscrit de la
+                                    Bibliothèque nationale, quoique relevant d’un art notablement
+                                    inférieur. Les huit premières servent d’illustration aux Heures
+                                    de la Vierge : fol. 15, la Vierge et l'enfant Jésus ; à leurs
+                                    pieds se tient un personnage agenouillé ; derrière lui, sainte
+                                    Catherine (?), s. Antoine ermite et s. Christophe (Matines) ;
+                                    24, la flagellation (Laudes); 34 v°, Jésus devant Pilate (Prime)
+                                    ; 38 v°, Jésus portant sa croix (Tierce) ; 41 v°, Jésus étendu
+                                    sur la croix (Sexte) ; 45, crucifixion (None) ; 48 v°, descente
+                                    de croix (Vêpres) ; 57, mise au tom¬beau (Complies). La peinture
+                                    du fol. 84, la salutation angélique, vient en tête des Sept
+                                    joies de la Vierge ; celle du fol. 296, la trahison de Judas et
+                                    l’arrestation de Jésus, se trouve au milieu de la Passion selon
+                                    saint Marc. — A cette décoration primitive appartient également
+                                    un certain nombre d’initiales historiées les unes sur fond
+                                    losangé ou quadrille, les autres sur fond d’or ou de couleurs;
+                                    celle du fol. 15 v° renferme la Vierge et l’enfant Jésus; au bas
+                                    de l’encadrement figurent l’emblème formé de deux anneaux
+                                    entrelacés et les lettres S. B. (ou F. B.) qui foisonnent dans
+                                    le ms. lat. 757 ; au milieu, on aperçoit une targe : d'azur au
+                                    lion d'or (?) orné et lampassé de gueules. Les anneaux et les
+                                    lettres se retrouvent au bas de plusieurs encadrements.</p>
+                              </decoNote>
+                           </decoDesc>
+                           <bindingDesc>
+                              <binding>
+                                 <p>Rel. maroquin rouge ; dos orné.</p>
+                              </binding>
+                           </bindingDesc>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate>1380</origDate>
+                              <p>L’office de la Vierge et celui des morts sont ceux de Rome ; le
+                                 calendrier est franciscain ainsi que les litanies et le Confiteor.
+                                 La présence de saint Prosdocimc et de sainte Justine dans le
+                                 calendrier semble désigner Padoue comme lieu d’origine du manuscrit
+                                 ; toutefois, il convient de noter que les deux saints ne figurent
+                                 ni dans les litanies ni dans le sanctoral. Je ne saurais dire s’il
+                                 y a lieu d’attacher une signification spéciale à l’invocation : «
+                                 Pro ministro » dans les litanies (fol. 152). Les différentes
+                                 formules de prières ont été rédigées au masculin ; celle du fol.
+                                 428 v° semblerait indiquer que le volume a été transcrit pour un
+                                 personnage dont le nom commençait par Ma.</p>
+                              <p>Il existe plusieurs répliques de cet intéressant manuscrit. M.
+                                 Toesca (La pittura e la miniatura nella Lombardia, 1912, p. 279 à
+                                 283) en a signalé une à la bibliothèque royale de Munich (Cod.
+                                 lat., 23215) : c’est un livre d’Heures exécuté par Giovanni di
+                                 Benedetto, de Cumes, pour Blanche de Savoie, mère de Jean-Gaiéas
+                                 Visconti. J’en ai rencontré une autre dans la collection
+                                 Smith-Lesouëf, à Nogent-sur-Marne. Le manuscrit 22 de cette
+                                 bibliothèque se présente en effet dans des conditions à peu près
+                                 semblables. Il s’ouvre par une table pascale (fol. 1 et 2) qui va
+                                 de 1380 à 1490. Viennent ensuite un calendrier de Bruges (fol. 3 à
+                                 14), la table du manuscrit, les Heures de la Vierge (fol. 15 v° à
+                                 83) et les Sept joies de Marie (84 v° à 88). Le missel occupe les
+                                 fol. 120 à 212 ; il comprend les prières préliminaires de la messe,
+                                 les messes votives pour les jours de la semaine, Y or do missae et
+                                 quelques messes du temporal et du sanctoral. Viennent en dernier
+                                 lieu l’office des morts (223 v° à 264), les psaumes pénitentiels
+                                 (265 à 275), les litanies (275 à 284), la Passion selon les quatre
+                                 évangé¬listes (286 à 346), et enfin (349 à 353) quelques
+                                 bénédictions extraites du missel. Le manuscrit 1352 de la
+                                 Bibliothèque nationale qui sera décrit plus loin peut également
+                                 être regardé comme une réplique du ms. lat. 757, dont il renferme
+                                 plu¬sieurs prières importantes et dont il reproduit la plupart des
+                                 fautes de transcription.</p>
+                              <origDate>La table pascale du fol. D v° donne la date du manuscrit :
+                                 1380.</origDate>
+                              <p>Il ressort de l’analyse ci-dessus que le manuscrit est un livre
+                                 d'Heures à l’usage de Rome, ou, plus exactement, à l’usage
+                                 franciscain, copié vers 1380 dans l’Italie du nord et probablement
+                                 dans la région de Padoue. — Par qui les peintures ont-elles été
+                                 exécutées ? En l’absence de signa¬ture et de renseignements puisés
+                                 à des documents d’archives, il est difficile de mettre un nom en
+                                 avant. Tout ce que l’on peut dire, c’est que les peintures
+                                 appartiennent à l’école italienne. — Pour qui le manuscrit a-t-il
+                                 été exécuté ? Question presque aussi difficile à résoudre que la
+                                 première. Pour être en mesure de le faire, il faudrait connaître le
+                                 nom du personnage qui se tient agenouillé aux pieds de la Vierge
+                                 (fol. 102 v°) et qui porte un soleil sur son vêtement, emblème que
+                                 l’on retrouve quoiqu’un peu différent sur le pourpoint de
+                                 l’officier qui accompagne le cen¬turion (fol. 72 et 75). Il
+                                 faudrait également savoir qu’elle est cette femme symbolique qui
+                                 figure au fol. 357 ; il faudrait enfin pénétrer la signification de
+                                 l’emblème et des lettres quelle tient dans les mains et qui sont
+                                 répandues à foison dans la dernière partie du manuscrit. En
+                                 l’absence de conclusions positives, une chose du moins paraît
+                                 certaine ; c’est que les armoiries des fol. D et 2 v° n’apportent
+                                 aucun élément de solution du problème.</p>
+                           </origin>
+                           <!-- Division du paragraphe entre <origin> et <provenance> difficile à automatiser, à moins de matcher sur des mots-clés ("usage", "possesseurs" etc.) -->
+                           <provenance>
+                              <p>Ainsi que l’a établi M. Max Prinet (cf. l’article cité dans la
+                                 bibliographie ci-après), les deux blasons ont été ajoutés; ils nous
+                                 renseignent donc, non pas sur le personnage pour qui le manuscrit a
+                                 été exécuté, mais seulement sur les possesseurs du livre d'Heures
+                                 dans la première moitié du XVIe siècle : Claude et Anne (ou Annet)
+                                 Régin.</p>
+                           </provenance>
+                        </history>
+                        <additional>
+                           <listBibl>
+                              <bibl>TOESCA (Pietro), La pittura e la miniatura nella Lombardia,
+                                 1912, p. 279 à 294.</bibl>
+                              <bibl>COUDERC (Camille), Album de portraits, p. 19 et pl. XLV et
+                                 XLVI.</bibl>
+                              <bibl>PRINET (Max), Bulletin de la Société nationale des antiquaires
+                                 de France (séance du 26 mars 1924), p. 137 à 141.</bibl>
+                              <bibl>LEROQUAIS (abbé V.), Les sacramentaires et les missels
+                                 manuscrits des biblio¬thèques publiques de France, 1924, t. II, p.
+                                 361-363 et pl. LXIX à LXXV.</bibl>
+                              <bibl> ANCONA (Paolo d’), La miniature italienne du Xe au XVIe siècle,
+                                 1925, p. 21 et pl. XVI.</bibl>
+                              <bibl>[COUDERC (Camille)], Catalogue de l’exposition du moyen âge.
+                                 Bibliothèque nationale, 1926, p. 35-36.</bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+               </listWit>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+         </body>
+      </text>
+   </TEI>
+   <!-- Notice 2, p.232-233 de l'OCR. -->
+   <TEI n="112">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <p>cf. supra</p>
+            </publicationStmt>
+            <sourceDesc>
+               <listWit>
+                  <witness>
+                     <msDesc>
+                        <msIdentifier>
+                           <repository>Bibliothèque nationale</repository>
+                           <idno>ms. lat., 1399.</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <summary>HEURES A L’USAGE DE ROME.</summary>
+                           <msItem>
+                              <locus>ir.</locus>
+                              <title>Anciennes cotes</title>
+                              <quote>Codex Colb. 6323.</quote>
+                              <quote>Regius, 4475, 3.</quote>
+                           </msItem>
+                           <msItem>
+                              <locus>1r. à 12r.</locus>
+                              <title>Calendrier de Chalon-sur-Saône.</title>
+                              <note>(22 janv.) En lettres rouges : « S. Vincent. » — (27 janv.) « S.
+                                 Lup evesq. » — (17 mars) « S. Agric evesq. » — (30 avr.) « S. Flave
+                                 et Desiderez evesq. » — (11 mai) « S. Gengul mart. » — (24 mai) «
+                                 S. Disier, ev. et mart. » — (6 juin) « S. Claude, ev. de Besançon.
+                                 » — (14 juin) « S. Ruph de Valance. » — (7 juill.) « S. Gervas. » —
+                                 (19 août) « S. Grant mart. » — (2 sept.) « S. Just mart. » - (24
+                                 sept.) "S.Andoche mart." - (20 oct.) "S. Verain evesq." - (29 oct.)
+                                 "S. Énoc abbé. » — (4 nov.) « S. Gengoul mart. »</note>
+                           </msItem>
+                           <msItem>
+                              <locus>13r. à 19r.</locus>
+                              <title>Extraits des quatre évangiles.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>19r.</locus>
+                              <rubric>Dévote oroison à nostre Dame.</rubric>
+                              <incipit><locus>19v.</locus> Obsecro te, domina sancta Maria, mater
+                                 Dei, pietate plenissima...</incipit>
+                              <quote><locus>22r</locus> ...Et eciam in omnibus illis rebus in quibus
+                                 ego sum facturus, locuturus aut cogitaturus... Et michi famulo tuo
+                                 impetres a dilecto filio complementum...</quote>
+                              <explicit>
+                                 <locus>24r</locus>...mater Dei, pietatis et misericordie.
+                                 Amen.</explicit>
+                           </msItem>
+                           <msItem>
+                              <rubric>De nostre Dame.</rubric>
+                              <incipit>Gaude, flore virginali Que honore speciali...</incipit>
+                           </msItem>
+                           <msItem>
+                              <locus>30r. à 52r.</locus>
+                              <title>Office de la Passion.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>54r. à 108r.</locus>
+                              <title>Heures de la Vierge</title>
+                              <note>le début manque.</note>
+                              <quote><locus>101.</locus>Chi apres sensicut l’offisse (sic) de
+                                 Vadvent...</quote>
+                           </msItem>
+                           <msItem>
+                              <note>Lacune entre 108 et 110.</note>
+                           </msItem>
+                           <msItem>
+                              <locus>110r. à 115r.</locus>
+                              <title>Heures de la Croix</title>
+                              <note>le commencement et la fin manquent.</note>
+                           </msItem>
+                           <msItem>
+                              <note>Lacune entre 115 et 116.</note>
+                           </msItem>
+                           <msItem>
+                              <locus>116r. à 118r.</locus>
+                              <title> Heures du Saint-Esprit</title>
+                              <note>le commencement et la fin ont disparu.</note>
+                           </msItem>
+                           <msItem>
+                              <note>Lacune entre 118 et 120.</note>
+                           </msItem>
+                           <msItem>
+                              <locus>120r. à 130r.</locus>
+                              <title>Psaumes de la pénitence</title>
+                              <note>le commencement manque.</note>
+                           </msItem>
+                           <msItem>
+                              <locus>130v. à 137r.</locus>
+                              <title>Litanies.</title>
+                              <quote><locus>132r.</locus>...s. Vincenti; s. Dyonisi cum sociis tuis
+                                 ; s. Mauri cum sociis tuis...</quote>
+                           </msItem>
+                           <msItem>
+                              <locus>137v. à 174r</locus>
+                              <title>Office des morts.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>174r.</locus>
+                              <rubric>Chi ensieuvent les commandasses.</rubric>
+                              <incipit>Ant. Subvenite, sancti Dei...</incipit>
+                           </msItem>
+                           <msItem>
+                              <locus>181v.</locus>
+                              <rubric><title>Oratio.</title></rubric>
+                              <incipit>Domine Iesu Christe, qui septem verba...</incipit>
+                              <explicit><locus>183v.</locus>...iocundari et commorari per infinita
+                                 secula seculorum. Amen.</explicit>
+                           </msItem>
+                           <msItem>
+                              <locus>187r.</locus>
+                              <note>D’une autre main :</note>
+                              <incipit>Glorieux saint Sébastien, Qui souffris comme bon
+                                 chrétien...</incipit>
+                           </msItem>
+                           <msItem>
+                              <locus>188r.</locus>
+                              <note>D’une autre main :</note>
+                              <incipit>Il fault morir, retenes bien, Retenes bien, je vous en
+                                 prie...</incipit>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <objectDesc>
+                              <supportDesc material="parch">
+                                 <support>
+                                    <material>Parch.</material>
+                                 </support>
+                                 <extent>
+                                    <measure type="composition" unit="leaf" quantity="188">188 ff. à
+                                       longues lignes ; plusieurs lacunes.</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                       <height quantity="188">188</height>
+                                       <width quantity="128">128</width>
+                                    </dimensions>
+                                 </extent>
+                              </supportDesc>
+                           </objectDesc>
+                           <decoDesc>
+                              <!-- Les paragraphes dans <decoNote> ont été déterminés grâce aux tirets longs. -->
+                              <decoNote>
+                                 <p>Peintures des plus médiocres : fol. 30, la flagellation ; 137
+                                    v°, service funèbre.</p>
+                                 <p>Initiales de couleur dont le champ est occupé par des feuilles
+                                    stylisées sur fond d’or.</p>
+                                 <p>Initiales d’or sur fond azur et lilas relevé de blanc.</p>
+                                 <p>Quelques bordures de feuillage et de fleurs.</p>
+                                 <p>Petites initiales vermillon et azur alternativement.</p>
+                              </decoNote>
+                           </decoDesc>
+                           <bindingDesc>
+                              <binding>
+                                 <p>Rel. maroquin rouge aux armes de France et au chiffre royal.</p>
+                              </binding>
+                           </bindingDesc>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate>XVe SIÈCLE</origDate>
+                              <p>L’office de la Vierge et celui des morts représentent l'usage de
+                                 Rome ; l’écriture est française ; le calendrier est celui de
+                                 Chalon-sur-Saône : ce sont donc des Heures de Rome avec calendrier
+                                 de Chalon-sur-Saône.</p>
+                           </origin>
+                        </history>
+                     </msDesc>
+                  </witness>
+               </listWit>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+         </body>
+      </text>
+   </TEI>
+   <!-- Notice 3, p.675-676 de l'OCR. -->
+   <TEI n="313">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title/>
+            </titleStmt>
+            <publicationStmt>
+               <p>cf. supra</p>
+            </publicationStmt>
+            <sourceDesc>
+               <listWit>
+                  <witness>
+                     <msDesc>
+                        <msIdentifier>
+                           <repository>Bibliothèque nationale</repository>
+                           <idno>fr. nouv. acq., 10230</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <summary>HEURES A L’USAGE DE ROUEN ET GRAND COUTUMIER DE
+                              NORMANDIE.</summary>
+                           <msItem>
+                              <locus>ir.</locus>
+                              <note>Au bas du feuillet, note en écriture moderne : « Phillipps ms.
+                                 22403. »</note>
+                           </msItem>
+                           <msItem>
+                              <locus>1r. à 6r.</locus>
+                              <!-- Le <title> dans la note ne sera pas automatisable, on privilégiera la balise <title> dans ce cas. -->
+                              <note><title>Calendrier</title> très clairsemé où dominent les saints
+                                 caractéristiques d’Évreux</note>
+                              <note>(25 mai) « S. Mauxe. » — (5 août ) I)’une autre main : « Nostre
+                                 Dame des Neiges b. » — (12 août) D’une autre main : « Réduction de
+                                 Normandie, p.a.b. » — (5 sept.) En lettres rouges : « S. Taurin. »
+                                 — (ier oct.) « S. Rémy. — Bouge, p.a.b. » — (10 oct.) D’une autre
+                                 main : « Le lundi, baillage recommance. » — (16 oct.) En lettres
+                                 rouges : « S. Michel. » — (25 oct.) D’une autre main : « Prinse de
+                                 Rouen. 1562. » — (12 nov.) D’une autre main : « Parlement
+                                 recomance. » — (22 nov.) D’une autre main : « Ste Cecylle. — Le puy
+                                 de la M... » La fin de ce dernier nom a été rognée par le relieur.
+                                 — (30 déc.) « S. Ursin. »</note>
+                           </msItem>
+                           <msItem>
+                              <locus>7r. à 27r.</locus>
+                              <title>Heures de la Vierge.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>27v. à 29r.</locus>
+                              <title>Heures de la Croix.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>29r. à 30r.</locus>
+                              <title>Heures du Saint-Esprit.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>31r. à 37r.</locus>
+                              <title>Psaumes de la pénitence.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>38r. à 41r..</locus>
+                              <title>Litanies.</title>
+                              <quote><locus>39r.</locus>...s. Romane ; s. Audoene ; s. Mellone ; s.
+                                 Vulgane ; s. Martine ; s. Macute ; s. Hugo ; s. Viviane ; s.
+                                 Taurine ; s. Maxime ; s. Alexis ; s. Severe ; s. Patrici ;
+                                 s.Philberte</quote>
+                              <quote><locus>39v.</locus>s. Hubcrte ; s. Leodegari ; s. Iuliane ; s.
+                                 Amande ; omnes sancti confessores ; s. Anna... s. Avia ; s.
+                                 Genovefa... s. Honorina ; s. Austreberta...</quote>
+                           </msItem>
+                           <msItem>
+                              <locus>41v. et 42r.</locus>
+                              <title>Prologue de saint Jean.</title>
+                           </msItem>
+                           <!-- On pourrait ici subdiviser chaque prière en un <msItem> à l'intérieur du <msItem> sur les prières diverses, mais cela serait difficile à automatiser, car les tirets longs séparent souvent des citations, et un paragraphe correspond en général à un <useItem>. -->
+                           <msItem>
+                              <locus>43r à 50r.</locus>
+                              <title>Prières diverses.</title>
+                              <incipit><locus>43r.</locus>Obsecro te, domina sancta Maria, mater
+                                 Dei, pietate plenissima... Et in omnibus illis rebus in quibus ego
+                                 sum facturus, locuturus aut cogitaturus... et michi famulo tuo
+                                 impetra a dilecto filio tuo comple¬mentum ... </incipit>
+                              <explicit><locus>45r.</locus> ...mater Dei et misericordie.
+                                 Amen.</explicit>
+                              <rubric>Oracio ad Christum.</rubric>
+                              <incipit>0 bone Iliesu, o dulcissime Ihesu, o piissime Ihesu, o Ihesu,
+                                 fili Marie virginis...</incipit>
+                              <explicit><locus>46v.</locus>... qui diligunt nomen tuum quod est
+                                 Ihesus. Amen.</explicit>
+                              <incipit><locus>47r.</locus>0 intemerata... De te enim Filius Dei
+                                 verus... </incipit>
+                              <quote><locus>47v.</locus> ...et esto michi miserrimo peccatori
+                                 propicia in omnibus auxiliatrix...</quote>
+                              <explicit><locus>48v.</locus> ...cum omnibus sanctis et electis suis.
+                                 Amen.</explicit>
+                              <rubric>Oratio ad Dominum Ihesum Christum.</rubric>
+                              <incipit>Domine Ihesu Christe, adoro te in cruce
+                                 pendentem...</incipit>
+                              <explicit><locus>49r.</locus> ...ab angelo percuciente. Pater
+                                 noster.</explicit>
+                              <note>Suivent cinq autres invocations.</note>
+                              <title><locus>49v. et 50r.</locus> Passion selon saint Jean.</title>
+                              <incipit><locus>50r.</locus>Deus qui manus tuas et pedes tuos... —
+                                 ...et veram scienciam usque in finem. Qui...</incipit>
+                              <title><locus>50 v.</locus> Antienne et oraison en l’honneur de saint
+                                 Romain.</title>
+                           </msItem>
+                           <msItem>
+                              <locus>Fol. 55r. à 210r.</locus>
+                              <title>Grand coutumier de Normandie.</title>
+                              <incipit><locus>55r.</locus>Pour ce que nostre intencion est à
+                                 déclarer en ceste euvre au mieulx que nous pourrons les droiz et
+                                 les esta- blissemens de Normendie...</incipit>
+                              <rubric><locus>210r.</locus>De marché de bourse. XXIII.</rubric>
+                              <explicit>Item que aucun cas de marché de bourse celui à qui l’en
+                                 demande le marché...</explicit>
+                           </msItem>
+                           <msItem>
+                              <locus>211 v.</locus>
+                              <incipit><note>D’une autre main :</note>Torel n’est qu’un sot ; il m’a
+                                 fait mal aulx bras. Je voudrais qu’il fût pendu aussy hault que je
+                                 le pourrais regarder.</incipit>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <objectDesc>
+                              <supportDesc material="parch">
+                                 <support>
+                                    <material>Parch.</material>
+                                 </support>
+                                 <extent>
+                                    <measure type="composition" unit="leaf" quantity="212">212 ff. à
+                                       longues lignes.</measure>
+                                    <!-- Les informations à mettre dans <dimensions> seront à diviser dans un deuxième temps en <height> et <width> en ne gardant que les chiffres. -->
+                                    <dimensions type="leaf" unit="mm">
+                                       <height quantity="132">132</height>
+                                       <width quantity="96">96</width>
+                                    </dimensions>
+                                 </extent>
+                              </supportDesc>
+                           </objectDesc>
+                           <decoDesc>
+                              <decoNote>
+                                 <p>Ni peintures ni miniatures.</p>
+                                 <p>Quelques initiales filigranées.</p>
+                                 <p>Petites initiales vermillon et azur
+                                 alternativement.</p></decoNote>
+                           </decoDesc>
+                           <bindingDesc>
+                              <binding>
+                                 <p>Rel. basane racine.</p>
+                              </binding>
+                           </bindingDesc>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate>XVe SIÈCLE</origDate>
+                              <p>L’office de la Vierge représente l’usage de Rouen.</p>
+                              <origDate>Le manuscrit date de la seconde moitié ou de la fin du xve
+                                 siècle.</origDate>
+                           </origin>
+                        </history>
+                     </msDesc>
+                  </witness>
+               </listWit>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <p/>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>

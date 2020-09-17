@@ -10,7 +10,7 @@ Le dossier ```Livrables_techniques ``` contient les dossiers suivants :
 * ```Encodage_catalogue_notices```, avec les documents sources, les documents de réflexion, de transformation et de résultat d'un encodage semi-automatisé d'un catalogue de notices de livres d'heures établi par Victor Leroquais ;
 * ```CSS/Framework_Oxygen```, dans lequel on trouve un fichier .css et des captures d'écran de modifications d'actions dans le framework du logiciel Oxygen XML Editor, afin de répondre à des enjeux d'ergonomie dans la saisie de notices bibliographiques en mode auteur ;
 * ```Base_donnees_Heurist```, soit les documents relatifs à la modélisation et à l'import des données dans la base de données relationnelle de la plateforme Huma_Num Heurist ;
-* ```Alignement_Psaumes_Transkribus``` contient le texte de référence des Sept Psaumes de la Pénitence à aligner avec Transkribus sur les manuscrits numérisées, ainsi qu'un fichier de vérification des alignements ;
+* ```Alignement_Psaumes_Transkribus``` contient le texte de référence des Sept Psaumes de la Pénitence à aligner avec Transkribus sur les manuscrits numérisées ;
 * ```Annotation_Arkindex``` avec des exemples d'annotations sur la plateforme Arkindex, des ajouts de classes et le manuel d'annotation pour établir la vérité terrain.
 
 Enfin, la feuille de route témoigne des différentes réflexions menées lors du stage. 

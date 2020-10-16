@@ -30,4 +30,4 @@ Le dossier ``` Livrables_techniques ``` contient les dossiers suivants :
 
 * ``` Annotation_Arkindex ``` avec des exemples d'annotations sur la plateforme Arkindex.
 
-Enfin, la feuille de route témoigne des différentes réflexions menées lors du stage. 
+Enfin, la feuille de route témoigne des différentes réflexions et travaux menés lors du stage. 
